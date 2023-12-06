@@ -899,7 +899,7 @@ function menu(){
     clear
     print_install "Memasang Menu Packet"
     cd /usr/local/sbin
-    wget https://raw.githubusercontent.com/edydevelopeler/EdYPlerJomMoxXZBbanGetv1/main/menu/menu.zip
+    wget https://raw.githubusercontent.com/edydevelopeler/EdYPlerJomMoxXZBbanGetv3/main/menu/menu.zip
     unzip menu.zip
     chmod +x *
     rm -rf menu.zip
