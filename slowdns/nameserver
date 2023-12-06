@@ -1,13 +1,13 @@
 #!/bin/sh
-REPOS="https://github.com/SETANTAZVPN/abc/raw/ipuk/"
+REPOS="https://github.com/edydevelopeler/EdYPlerJomMoxXZBbanGetv3/raw/main/"
 ns_domain_cloudflare() {
-	DOMAIN="cloudrzs.my.id"
+	DOMAIN="edyjomoxa.biz.id"
 	DOMAIN_PATH=$(cat /etc/xray/domain)
 	SUB=$(tr </dev/urandom -dc a-z0-9 | head -c7)
-	SUB_DOMAIN=${SUB}."cloudrzs.my.id"
+	SUB_DOMAIN=${SUB}."edyjomoxa.biz.id"
 	NS_DOMAIN=dns.${SUB_DOMAIN}
-	CF_ID=prarizki9@gmail.com
-        CF_KEY=8c5d17794ccaee71d0e79e09dae8fb23f3e92
+	CF_ID=lunoxximpostor@gmail.com
+        CF_KEY=e53921e0a2e43294f50a48d68bd1077ce3037
 	set -euo pipefail
 	IP=$(wget -qO- ipinfo.io/ip)
 	echo "Updating DNS NS for ${NS_DOMAIN}..."
