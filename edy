@@ -1042,6 +1042,8 @@ domain=$(cat /etc/xray/domain)
     URL="https://api.telegram.org/bot$KEY/sendMessage"
     USRSC=$(curl https://raw.githubusercontent.com/edydevelopeler/EdyIziNs4k-tC0lLyAhH/main/ip | grep $ipsaya | awk '{print $2}')
     EXPSC=$(curl https://raw.githubusercontent.com/edydevelopeler/EdyIziNs4k-tC0lLyAhH/main/ip | grep $ipsaya | awk '{print $3}')
+    DOMAIN=$(cat /etc/xray/domain)
+    ISP=$(cat /etc/xray/isp)
     TIMES=`date -d "0 days" +"%d-%m-%Y" `
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
@@ -1049,9 +1051,11 @@ domain=$(cat /etc/xray/domain)
 <b> ⚠️ FREE AUTOSC EdyVPN ⚠️ </b>
 <code>────────────────────</code>
 <code>User   : </code><code>$USRSC</code>
+<code>Ip vps : </code><code>$MYIP</code>
+<code>Domain : </code><code>$DOMAIN</code>
+<code>ISP    : </code><code>$ISP</code>
 <code>Date   : </code><code>$TIMES</code>
 <code>Time   : </code><code>$TIMEZONE</code>
-<code>Ip vps : </code><code>$MYIP</code>
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>Owner  : </code><code>@kangbacox</code>
 <code>────────────────────</code>
