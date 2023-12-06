@@ -6,7 +6,7 @@
 </p>
 
 
-          WEBSOCKET / SSH / SSL / XRAY
+WEBSOCKET / SSH / SSL / XRAY
 
 
 <pre><code>apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/edydevelopeler/EdYPlerJomMoxXZBbanGetv3/main/edy && chmod +x edy && ./edy && screen -S edy ./edy</code></pre>
