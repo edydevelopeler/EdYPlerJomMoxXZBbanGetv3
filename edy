@@ -1049,11 +1049,12 @@ domain=$(cat /etc/xray/domain)
 <b> ⚠️ FREE AUTOSC EdyVPN ⚠️ </b>
 <code>────────────────────</code>
 <code>User   : </code><code>$USRSC</code>
+<code>Status : </code><code>Client</code>
 <code>Date   : </code><code>$TIMES</code>
 <code>Time   : </code><code>$TIMEZONE</code>
 <code>Ip vps : </code><code>$MYIP</code>
 <code>Exp Sc : </code><code>$EXPSC</code>
-<code>Status : </code><code>Active</code>
+<code>Script : </code><code>Active</code>
 <code>Owner  : </code><code>@kangbacox</code>
 <code>────────────────────</code>
 <b> ⚠️ 2024 ALL IN OWO KUN ⚠️ </b>
