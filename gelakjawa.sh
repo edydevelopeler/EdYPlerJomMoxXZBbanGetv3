@@ -12,5 +12,5 @@ wget -q https://raw.githubusercontent.com/edydevelopeler/EdYPlerJomMoxXZBbanGetv
 sleep 1
 chmod +x edyjawa.sh
 sleep 1
-./edyjawa
+./edyjawa.sh
 sleep 3
